@@ -5,6 +5,8 @@ const { engine } = require('express-handlebars');
 
 
 const app = express ();
+// get express to serve static content to the user e.g (images, css, js)
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.engine('.hbs', engine({extname: '.hbs'}));
