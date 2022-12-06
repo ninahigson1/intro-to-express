@@ -1,3 +1,10 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
 h1 {
     color: red;
 }
@@ -5,4 +12,31 @@ h1 {
 img {
     width:40%
     
+}
+
+
+
+.container {
+    width: 100%;
+    border: 1px coral;
+    margin-right: 2%;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    
+}
+
+.card > img {
+    width: 100%;
+
+}
+
+.card > h1 {
+    font-size: 30pt;
+}
+
+.card > p {
+    font-size: 1.2em;
 }
